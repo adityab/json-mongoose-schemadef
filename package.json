@@ -1,0 +1,14 @@
+{
+  "name": "json-mongoose-schemadef",
+  "description": "A module to convert JSON Schemas to Mongoose schemas",
+  "version": "0.0.0",
+  "repository": "https://adityab@github.com/adityab/json-mongoose-schemadef.git",
+  "author": "Aditya Bhatt <aditya@adityabhatt.org> (http://adityabhatt.org)",
+  "main": "lib/main",
+  "directories": {
+    "lib": "lib"
+  },
+  "engines": {
+    "node": "*"
+  }
+}

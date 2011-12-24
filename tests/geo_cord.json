@@ -1,0 +1,7 @@
+{
+    "name": { type: "string" },
+    "properties": {
+        "latitude": { "type": "number", "required": true },
+        "longitude": { "type": "number", "required": true }
+    }
+}
