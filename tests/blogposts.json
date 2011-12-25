@@ -1,0 +1,14 @@
+{
+    "title": { "type": "string", "required": true },
+    "content": { "type": "string", "required": true },
+    "author": { "type": "string", "required": true },
+    "upvotes": { "type": "number" },
+    "public": { "type": "boolean", "required": true },
+    "comments": [
+                    { 
+                        "author": { "type": "string", "required": true },
+                        "content": { "type": "string", "required": true },
+                        "upvotes": { "type": "number" }
+                    }
+                ]
+}
