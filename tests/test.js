@@ -2,7 +2,7 @@ var JMS = require("json-mongoose-schemadef");
 var mongoose = require("mongoose");
 var fs = require('fs');
 
-var file = __dirname + '/geo_coords.json';
+var file = __dirname + '/blogposts.json';
 
 fs.readFile(file, 'utf8', function(err, data) {
     if(err) {
